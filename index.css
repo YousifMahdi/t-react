@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
+nav, section {
     width: 100%;
     background-color: #4c0fbc;
 }
@@ -18,7 +18,7 @@ a {
 .nav__container {
     display: flex;
     justify-content: space-between;
-    padding: 24px 130px;
+    padding: 5px 45px;
 }
 
 .nav__logo, .nav__links {
@@ -82,4 +82,52 @@ a {
 
 .nav__btn:hover {
     text-decoration: none;
+}
+
+.section__container {
+    display: flex;
+}
+
+.section__left {
+    width: 610px;
+    text-align: left;
+    margin-top: 12rem;
+    margin-left: 45px;
+}
+
+.section__header {
+    font-size: 3rem;
+    line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #fff;
+    max-width: 56rem;
+}
+
+.section__para {
+    font-size: 1rem;
+    margin-top: 1rem;
+    max-width: 42rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section__btn {
+    font-size: 1rem;
+    padding: 1.25rem 2.5rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    background-color: #a110f5;
+    color: #fff;
+    border: none;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.main__img {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 345px;
+    top: 100px;
 }
