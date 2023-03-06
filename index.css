@@ -86,13 +86,13 @@ a {
 
 .section__container {
     display: flex;
+    justify-content: space-between;
+    padding: 12rem 45px;
 }
 
 .section__left {
     width: 610px;
     text-align: left;
-    margin-top: 12rem;
-    margin-left: 45px;
 }
 
 .section__header {
@@ -128,6 +128,5 @@ a {
     height: 500px;
     width: 500px;
     position: relative;
-    left: 345px;
-    top: 100px;
+    bottom: 100px;
 }
