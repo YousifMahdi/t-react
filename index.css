@@ -155,8 +155,13 @@ a {
     margin-top: 1rem;
 }
 
+.features__top--three, .features__bottom--three {
+    display: flex;
+    justify-content: space-between;
+}
+
 .feature__box {
-    max-width: 20rem;
+    max-width: 15rem;
 }
 
 .feature__img {
