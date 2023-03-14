@@ -204,6 +204,8 @@ ul {
 .price__plans {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    top: 200px;
 }
 
 .plan {
@@ -211,6 +213,7 @@ ul {
     background-color: #fff;
     max-width: 300px;
     border-radius: 5px;
+    width: 315px;
 }
 
 .big__three {
@@ -289,6 +292,16 @@ ul {
 
 .create__btn {
     margin-top: 1rem;
+}
+
+.first__btn {
+    position: relative;
+    top: 9.4rem;
+}
+
+.second__btn {
+    position: relative;
+    top: 1.4rem;
 }
 
 .create__server {
